@@ -5,4 +5,5 @@
 * Some manipulations with localStorage to persist audio first time playback 
 * Adapted for mobile devices
 
-![Example of a task page](https://pics.st/3d4/0b5/0b981b0b.png)
+
+<img src="https://pics.st/3d4/0b5/0b981b0b.png" width="800">
