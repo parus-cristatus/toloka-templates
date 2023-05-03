@@ -1,0 +1,108 @@
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.task-suite {
+    --border-radius: 12px;
+    --padding: 8px;
+
+    box-sizing: border-box;
+}
+
+.task {
+    width: 95%;
+    max-width: 600px;
+    padding: var(--padding, 8px);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    background: #eee;
+}
+
+.carousel-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.carousel-item img {
+  cursor: zoom-in;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  transform: translateY(-50%);
+  color: #9d9898;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: 0.6s ease;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: white;
+}
+
+.dots-container {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.label {
+    color: #555;
+    line-height: 18px;
+    font-size: 13px;
+}
+
+.modal-dialog {
+  position: relative;
+  max-width: 100%;
+  cursor: none;
+  border: none !important;
+  border-radius: var(--border-radius);
+  padding: 1.6rem;
+}
+
+.modal-img {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    cursor: zoom-out;
+}
+
+.modal-dialog::backdrop {
+	background: rgba(0,0,0,0.5);
+}
