@@ -1,0 +1,29 @@
+<div class="carousel-wrapper">
+    <div class="carousel-container">
+
+        {{#each images}}
+            <div class="carousel-item">
+                <img src={{this}}>
+            </div>
+        {{/each}}
+        <span class="prev">&#10094;</span>
+        <span class="next">&#10095;</span>
+
+    </div>
+    <div class="dots-container">
+        {{#each images}}
+            <span class="dot"></span>
+        {{/each}}
+    </div>
+</div>
+<div class="radios">
+    <p class="label">What category does the item belong to?</p>
+    {{field type="radio" name="result" label="Men" value="men" hotkey="z"}}
+    {{field type="radio" name="result" label="Women" value="women" hotkey="x"}}
+    {{field type="radio" name="result" label="Other" value="other" hotkey="c"}}
+</div>
+
+
+<dialog class="modal-dialog">
+    <img class="modal-img" src="https://pics.st/94e/4e0/aef8e255.png">
+</dialog>
