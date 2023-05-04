@@ -53,10 +53,6 @@ exports.Task = extend(TolokaHandlebarsTask, function (options) {
       });
 
   },
-  onDestroy: function() {
-    // _TANKER_TRANSLATE_prj:default:ondestroy 
-  },
-
   onKey: function(key) {
     if (key === 'S') this.getDOMElement().querySelector('.next').click();
     if (key === 'A') this.getDOMElement().querySelector('.prev').click();
