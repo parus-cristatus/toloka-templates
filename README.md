@@ -1,6 +1,6 @@
 # toloka-templates
 
-### html/css/js Toloka project templates and snippets 
+### For Fun. html/css/js task interface snippets. Never heard of Handlebars, looks intriguing 🚐
 
 
 ### Docs:
