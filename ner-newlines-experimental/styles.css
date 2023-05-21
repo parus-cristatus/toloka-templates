@@ -1,0 +1,81 @@
+.task-suite {
+    --border-radius: 12px;
+    --padding: 13px;
+    --gap-md: 1.5rem;
+    --color-text: #555;
+    --btn1-color: pink;
+    --btn2-color: #afd2b0;
+    --btn3-color: #d0c3dc;
+
+    box-sizing: border-box;
+}
+
+.task {
+  width: 95%;
+  gap: var(--gap-md);
+  padding: var(--padding, 8px);
+  border-radius: var(--border-radius);
+  font-size: 1.2rem;
+  overflow: hidden;
+}
+
+.ner-editor {
+  border: 1px solid #e6e6e6;
+  border-radius: var(--border-radius);
+  padding: var(--padding);
+}
+
+span.active {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.error {
+  color: #e13a3a;
+  font-size: 1rem;
+}
+
+.label {
+  position: relative;
+  padding: .5rem 1.5rem;
+  font-family: inherit;
+  margin: 0 .2rem;
+  border-radius: 4px;
+  border: 1px solid #e6e6e6;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.label::before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  content: '';
+  width: 0px;
+  height: 0px;
+}
+
+.label:first-child {
+  margin-left: 0;
+}
+
+
+.label-1::before {
+  border-top: 10px solid var(--btn1-color);
+  border-bottom: 10px solid var(--btn1-color);
+  border-left: 15px solid var(--btn1-color);
+}
+
+.label-2::before {
+  border-top: 10px solid var(--btn2-color);
+  border-bottom: 10px solid var(--btn2-color);
+  border-left: 15px solid var(--btn2-color);
+}
+
+.label-3::before {
+  border-top: 10px solid var(--btn3-color);
+  border-bottom: 10px solid var(--btn3-color);
+  border-left: 15px solid var(--btn3-color);
+}
