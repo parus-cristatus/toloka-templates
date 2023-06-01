@@ -1,6 +1,6 @@
 # toloka-templates
 
-### For Fun. html/css/js task interface snippets. Never heard of Handlebars, looks intriguing 🚐
+### html/css/js task interface snippets created with the help of ChatGPT. Mainly Few-Shot Prompting was enough
 
 
 ### Docs:
@@ -10,4 +10,4 @@
 * [Classes to manipulate and extend](https://toloka.ai/docs/guide/spec-advanced/)
 
 ### Side notes:
-Used ChatGPT for some simple logic. Structure, patterns, combinatorics / analysis, concise and more difficult logic are still up to human brain.. Mainly Few-Shot Prompting was enough
+Used ChatGPT for some simple logic or separate pure functions. Structure, patterns, combinatorics / analysis, concise and more difficult logic are still up to human brain.. 
